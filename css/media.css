@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 500px) {
-    
+@media screen and (max-width: 1024px) {
+
+    .container {
+        width: 300px;
+    }
+
+    .div-container1 img {
+        height: 250px;
+    }
+
+    .div-hidden1 h1 {
+        font-size: 1.2em;
+        font-weight: 600;
+        padding-bottom: 1em;
+    }
+
+    .div-hidden1 p {
+        font-size: 15px;
+        padding-bottom: 1em;
+    }
+
+    .div-hidden2 {
+        padding-bottom: 1em;
+    }
+
+    .div-hidden2 h2 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .div-hidden2 p {
+        font-size: 14px;
+        font-weight: 600px;
+    }
+
 }
